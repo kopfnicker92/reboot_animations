@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+
+		<title>Animations</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery-2.1.3.min.js"></script>
+		
+
+
+	</head> 
+	<body>
+
+
+		<a href="#" id="button"><span>Submit</span>
+		<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" 
+	 	width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30">
+
+		<path fill="none" d="M2.98,14.191c4.295,4.64,8.59,9.28,12.886,13.919c0.201,0.217,0.659,0.193,0.785-0.101
+			c3.71-8.602,7.419-17.205,11.129-25.807c0.252-0.585-0.608-1.096-0.863-0.505c-3.71,8.602-7.419,17.205-11.129,25.807
+			c0.262-1.034,1.523-1.067,0.785-0.101c-4.295-4.64-8.59-9.28-12.886-13.919C3.248,13.01,2.542,13.719,2.98,14.191L2.98,14.191z"/>
+
+		</svg>
+		</a>
+		
+		
+		
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#button").click(function() {
+				$(this).toggleClass("run-animation");
+				$(this).toggleClass("haken");
+
+				});
+
+			});
+		</script>
+
+	</body>	
+</html>
