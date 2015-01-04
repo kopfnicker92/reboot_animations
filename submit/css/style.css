@@ -1,0 +1,90 @@
+@import url(normalize.css);
+@import url(fonts.css);
+
+
+#button {
+    display: block;
+    position: absolute;
+	text-align: center;
+    margin: 50px 100px;
+    padding: 20px 0;
+    width: 250px;
+    height: 20px;
+    border: 2px solid #1ECD97;
+    border-radius: 40px;
+    color: #1ECD97;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#button.run-animation {
+    width: 60px;
+    margin: 50px 200px;
+    font-size: 0;
+    background: #1ECD97;
+}
+
+a {
+	text-decoration: none;
+}
+
+svg {
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+
+.haken {
+  fill-opacity: 0;
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  -webkit-animation: draw 6s 0.5s 1 linear forwards;
+  -moz-animation: draw 6s 0.5s 1 linear forwards;
+  -o-animation: draw 6s 0.5s 1 linear forwards;
+  animation: draw 6s 0.5s 1 linear forwards;
+}
+
+@-webkit-keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-moz-keyframes draw {
+  to {
+    -moz-stroke-dashoffset: 0;
+  }
+}
+
+@-o-keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
